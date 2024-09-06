@@ -197,9 +197,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp W                 &kp F                  &kp J                   &kp G                       &kp Y                       &kp U                     &kp I                    &kp O                   &kp P     &kp DEL
-&kp APOS    &kp A  &cmt_left LEFT_ALT R  &cmt_left LEFT_META S  &cmt_left LEFT_SHIFT T  &cmt_left LEFT_CONTROL D    &cmt_right RIGHT_CONTROL H  &cmt_right RIGHT_SHIFT N  &cmt_right RIGHT_META E  &cmt_right RIGHT_ALT L  &kp UP    &kp BACKSPACE
-&td0        &kp Z  &kp X                 &kp C                  &kp V                   &kp B                       &kp K                       &kp M                     &kp SEMICOLON            &kp LEFT                &kp DOWN  &kp RIGHT
+&kp ESCAPE  &kp Q  &kp W                 &kp F                  &kp P                   &kp G                       &kp J                       &kp L                     &kp U                    &kp Y                   &kp SEMI  &kp DEL
+&kp APOS    &kp A  &cmt_left LEFT_ALT R  &cmt_left LEFT_META S  &cmt_left LEFT_SHIFT T  &cmt_left LEFT_CONTROL D    &cmt_right RIGHT_CONTROL H  &cmt_right RIGHT_SHIFT N  &cmt_right RIGHT_META E  &cmt_right RIGHT_ALT I  &kp O     &kp BACKSPACE
+&td0        &kp Z  &kp X                 &kp C                  &kp V                   &kp B                       &kp K                       &kp M                     &kp UP_ARROW             &kp LEFT                &kp DOWN  &kp RIGHT
                                          &lt 3 UNDER            &lt 2 TAB               &lt 1 SPACE                 &lt 1 ENTER                 &lt 2 PERIOD              &lt 3 COMMA
             >;
         };

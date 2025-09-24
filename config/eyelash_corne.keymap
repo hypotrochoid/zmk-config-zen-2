@@ -73,7 +73,7 @@
                                 &kp LGUI  &lt 2 TAB  &lt 1 SPACE                                               &lt 1 ENTER  &mo 3  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         lower_layer {

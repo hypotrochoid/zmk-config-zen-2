@@ -21,7 +21,7 @@ layers:
   - T
   - D
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RIGHT GUI
   - $$mdi:arrow-right-bold$$
   - H
   - N

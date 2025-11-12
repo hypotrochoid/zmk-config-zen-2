@@ -93,10 +93,10 @@
         default_layer {
             display-name = "COLEMAK";
             bindings = <
-&kp ESC           &kp Q  &kp W  &kp F     &kp P      &kp G                               &kp UP                &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp R  &kp S     &kp T      &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C     &kp V      &kp B        &kp SPACE              &kp DOWN              &kp K        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                                &kp LGUI  &lt 2 TAB  &lt 1 SPACE                                               &lt 1 ENTER  &mo 3  &kp RALT
+&kp ESC           &kp Q  &kp W  &kp F     &kp P      &kp G                               &kp UP                    &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LEFT_CONTROL  &kp A  &kp R  &kp S     &kp T      &kp D                     &kp LEFT  &kp RIGHT_GUI  &kp RIGHT  &kp H        &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C     &kp V      &kp B        &kp SPACE              &kp DOWN                  &kp K        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                                &kp LGUI  &lt 2 TAB  &lt 1 SPACE                                                   &lt 1 ENTER  &mo 3  &kp RALT
             >;
 
             sensor-bindings = <&volume_encoder>;
